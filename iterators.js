@@ -9,3 +9,13 @@ fruits.forEach(fruit => {
   }
 });
 
+
+const words = ['Any', 'sword', 'lakes', 'between', 'wiccan', 'ssayers', 'absconded'];
+let n = -1;
+// Create the secretMessage array below
+const secretM = words.map(word => {
+  n += 1
+  return word[n];
+})
+
+console.log(secretM.join(''));
