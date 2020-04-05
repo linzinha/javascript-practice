@@ -41,3 +41,20 @@ const longFavoriteWords = favoriteWords.filter(word => {
 })
 
 console.log(longFavoriteWords);
+
+//using findIndex
+//
+///////////////////////////////////////////////////
+const animals = ['hippo', 'tiger', 'lion', 'seal', 'cheetah', 'monkey', 'salamander', 'elephant'];
+
+const startsWith = letter => animals.findIndex(animal => {
+  return animal[0] === letter;
+})
+
+const findTheAnimal = (startsWith, letter) => {
+  position = startsWith(letter)
+  return 'an animal that starts with the letter ' + letter + ' is in position ' + startsWith(letter) + ' of the list: ' + letter + ' for ' + animals[startsWith(letter)] + '!'
+}
+
+console.log(findTheAnimal(startsWith,'s'))
+
