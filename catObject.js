@@ -1,3 +1,7 @@
+//
+//
+// Cat Object
+////////////////////////
 let cat = {
   ears: 'perked',
   eyes: 'wide',
@@ -16,6 +20,10 @@ let cat = {
 };
 
 
+//
+//
+// Functions
+//////////////////////////
 let feedCat = cat => {
   console.log("Feeding feline. Cat seems satisfied with food selection - this time.");
   cat.status = 'is Happy';
@@ -30,20 +38,9 @@ let doesvomit = () => {
   }
 }
 
-
 console.log("Assessing cat status. Cat " + cat.status + ".");
 cat.isHungry()
 feedCat(cat);
 console.log("Confirming status update. Cat " + cat.status) + ".";
 cat.isHappy()
 console.log(doesvomit())
-OW MEOWMEOWMEOW MEOOOOOWWWWW')
-  },
-  isAngry () {
-    console.log('HISSS')
-  }
-};
-
-cat.isHappy()
-cat.isHungry()
-cat.isAngry()
