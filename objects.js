@@ -1,34 +1,6 @@
 let cat = {
   ears: 'perked',
   eyes: 'wide',
-  status: 'alert',
-  whiskers: 'floofed',
-  bugsEaten: 6,
-  isHappy () {
-    console.log('Mew! Purrrrrrrr')
-  },
-  isHungry () {
-    console.log('MEOW ME// let spaceship = {
-//   'Fuel Type' : 'Turbo Fuel',
-//   homePlanet : 'Earth'
-// };
-
-// // Write your code below
-// let greenEnergy = ship => {
-//   ship['Fuel Type'] = 'avocado oil';
-// };
-
-// let remotelyDisable = ship => {
-//   ship.disabled = true;
-// };
-
-// greenEnergy(spaceship);
-// remotelyDisable(spaceship);
-// console.log(spaceship);
-
-let cat = {
-  ears: 'perked',
-  eyes: 'wide',
   status: 'is Hungry',
   whiskers: 'floofed',
   bugsEaten: 6,
@@ -42,10 +14,6 @@ let cat = {
     console.log('HISSS')
   }
 };
-
-
-
-
 
 
 let feedCat = cat => {
