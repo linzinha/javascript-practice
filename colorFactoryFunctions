@@ -1,0 +1,17 @@
+const colors = (CMYK, HSV, RGB, Hex, Frequency) => {
+  return {
+    CMYK: CMYK,
+    HSV: HSV,
+    RGB: RGB,
+    Hex: Hex,
+    Frequency: Frequency
+  }
+}
+
+const cyan = colors('(100, 0, 0, 0)', '(180°, 100%, 100%)', '(0, 255, 255)', '#00FFFF', '610–575 THz')
+const magenta = colors('(0, 100, 0, 0)', '(300°, 100%, 100%)', '(255, 0, 255)', '#FF00FF', 'none')
+const yellow = colors('(0, 0, 100, 0)', '(60°, 100%, 100%)', '(255, 255, 0)', '#FFFF00', '521–512 THz')
+const red = colors('(0, 100, 100, 0)', '(0, 100%, 100%)', '(255, 0, 0)', '#FF0000', '~480–400 THz')
+
+
+console.log(cyan.RGB)
